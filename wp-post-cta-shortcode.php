@@ -44,23 +44,35 @@ function post_cta_shortcode($atts) {
     </div>
     <style>
         .p4-post-cta {
-            padding: 20px;
-            background: #f8f9fa;
-            text-align: center;
-            margin-top: 40px;
-            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px 32px;
+            border-radius: 12px;
+            border: solid 1px #050505;
+        }
+        .p4-post-cta h2 {
+            margin-top: 0;
+            font-size: 1.75rem;
+            line-height: 2rem;
+        }
+        .p4-post-cta p {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin-bottom: 20px;
         }
         .p4-cta-button {
             display: inline-block;
             padding: 10px 20px;
-            background: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
+            background-color: #050505;
+            font-size: 1rem !important;
+            color: #ffffff !important;
+            text-decoration: none !important;
+            border-radius: 10px;
+            border: solid 1px #050505;
+            transition: background-color 0.3s ease-in-out;
         }
         .p4-cta-button:hover {
-            background: #0056b3;
+            color: #050505 !important;
+            background-color: #ffffff;
         }
     </style>
     <?php
