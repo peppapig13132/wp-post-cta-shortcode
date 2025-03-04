@@ -9,7 +9,7 @@ A lightweight plugin to add a customizable Call-to-Action (CTA) section to WordP
 
 This plugin leverages WordPress's built-in **custom fields** feature.
 
-### How to Enable Custom Fields
+### How to Enable Custom Fields?
 On Post edit page:
 1. Open `Preferences` modal (Under `Options` menu - three dots in top-right corner).
 2. Navigate to **General > Advanced > Custom fields** and enable **Custom fields** option.
